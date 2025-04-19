@@ -97,6 +97,7 @@ Styles for new tab
       backdrop-filter: blur(var(--blur-radius));
     }
     .logo-and-wordmark {display: flex !important;}
+    .search-wrapper {padding: 40px 0 30px !important;}
   }
   
   @media (height <= 700px) {
@@ -119,7 +120,7 @@ Styles for new tab
   :root[lwt-newtab-brighttext] body {background-image: url("../../wallpaper.png") !important;}
   
   /* light wallpaper */                                      /* `wallpaper.png` will be used when `-light` one does not exist */
-  :root:not([lwt-newtab-brighttext]) body {background-image: url("../../wallpaper-light.png"), url("../../wallpaper.png") !important;}
+  :root:not([lwt-newtab-brighttext]) body {background-image: url("../../wallpaper.png"), url("../../wallpaper.png") !important;}
   
   /* central box */
   main{
@@ -158,17 +159,6 @@ Styles for new tab
     z-index: 99999;
     bottom: 10px;
   }
-  
-  .activity-stream::before{
-    content: "ShyFox by N2ezr";
-    left: 10px;
-  }
-  
-  .activity-stream::after{
-    content: "42 🤙";
-    right: 10px;
-  }
-  
 }
 
 @-moz-document url("about:privatebrowsing") {

@@ -138,12 +138,6 @@ Styles for Min Max Close buttons
   
   /* GTK buttons design */
   .titlebar-button{
-    .toolbarbutton-icon {
-      background-image: none !important;
-      stroke: none !important;
-      -moz-context-properties: fill, fill-opacity !important;
-    }
-    
     &:hover .toolbarbutton-icon {background-color: color-mix(in srgb, var(--bt-col) 15%, transparent) !important;}
 
     margin-inline: 8px !important;
@@ -178,7 +172,7 @@ Styles for Min Max Close buttons
 @media (-moz-gtk-csd-available){
   @media not (-moz-gtk-csd-reversed-placement){
     
-    .titlebar-buttonbox-container{padding-right: 4px}
+    .titlebar-buttonbox-container{padding-right: 3px}
     
     /* style when not enough space - merged into window border */
     #main-window:is([titlepreface*="​"][titlepreface*="‌"], [titlepreface*="‍"]):not([customizing]){

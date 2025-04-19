@@ -32,7 +32,7 @@ Tab bar has been transformed into vertical toolbar on the right side of the wind
 #PanelUI-menu-button,
 #unified-extensions-button 
 {
-  position: fixed; 
+  position: fixed !important;
   z-index: 1 !important;
   
   width: var(--toolbar-button-wdt);

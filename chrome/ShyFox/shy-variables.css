@@ -26,7 +26,7 @@ Values of these variables can be changed safely and most likely nothing will bre
   --trans-dur: 0.25s;
   
   /* width of some elements. 1vw is one hundredth of the screen width */
-  --sdbr-wdt: 300px;
+  --sdbr-wdt: 200px;
   
   --navbar-wdt: 60vw;
   
@@ -132,9 +132,6 @@ Reserved values and all sorts of dynamic variables. You should not touch them.
   
   /* override one padding in navbar to match style */
   --toolbar-start-end-padding: calc(var(--margin) / 2) !important;
-  
-  /* fix bookmark toolbar */
-  --bookmarks-toolbar-overlapping-browser-height: 0px !important;
 }
 
 /* current tab loading progress */
